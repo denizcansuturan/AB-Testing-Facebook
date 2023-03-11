@@ -66,8 +66,8 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', 10)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
-control_df = pd.read_excel("D:/MIUUL/MEASUREMENT PROBLEMS/CASE STUDY 2/ABTesti/ab_testing.xlsx", sheet_name="Control Group")
-test_df = pd.read_excel("D:/MIUUL/MEASUREMENT PROBLEMS/CASE STUDY 2/ABTesti/ab_testing.xlsx", sheet_name="Test Group")
+control_df = pd.read_excel("location.xlsx", sheet_name="Control Group")
+test_df = pd.read_excel("location.xlsx", sheet_name="Test Group")
 
 
 # Step 2: Analyze the Control and Test group data.
